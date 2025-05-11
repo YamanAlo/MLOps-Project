@@ -1,0 +1,15 @@
+2025-04-18 17:09:59,054 - __main__ - INFO - Loading model from models/best_model.joblib
+2025-04-18 17:09:59,642 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:09:59,643 - __main__ - INFO - Loading data from data/processed/new_unseen_data.csv
+2025-04-18 17:09:59,645 - __main__ - ERROR - Error loading data: [Errno 2] No such file or directory: 'data/processed/new_unseen_data.csv'
+2025-04-18 17:09:59,645 - __main__ - ERROR - Error in prediction process: [Errno 2] No such file or directory: 'data/processed/new_unseen_data.csv'
+2025-04-18 17:14:35,390 - __main__ - INFO - Loading model from models/best_model.joblib
+2025-04-18 17:14:35,951 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:14:35,951 - __main__ - INFO - Loading data from data/processed/test_data.npz
+2025-04-18 17:14:35,953 - __main__ - INFO - Data loaded successfully with shape: (3922, 10)
+2025-04-18 17:14:35,953 - __main__ - INFO - Making predictions on 3922 samples
+2025-04-18 17:14:35,977 - __main__ - INFO - Successfully generated 3922 predictions
+2025-04-18 17:14:35,990 - __main__ - INFO - Predictions saved to data/predictions\predictions_20250418_171435.csv
+2025-04-18 17:14:35,990 - __main__ - INFO - Logging prediction run to MLflow
+2025-04-18 17:14:36,546 - __main__ - INFO - Prediction run logged with ID: 8521600f563b41c8ab02a4a17e965d6d
+2025-04-18 17:14:36,549 - __main__ - INFO - Prediction process completed successfully. Made 3922 predictions.

@@ -1,0 +1,1202 @@
+2025-04-18 05:12:29,404 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 05:12:29,407 - __main__ - INFO - Loaded data with shape X: (16512, 10), y: (16512,)
+2025-04-18 05:12:29,408 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 05:12:29,411 - __main__ - INFO - Processing model: random_forest
+2025-04-18 05:12:29,411 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 05:12:29,411 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 05:12:33,660 - __main__ - ERROR - Error processing model random_forest: 
+All the 3600 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1306 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'log2', 'sqrt'} or None. Got 'auto' instead.
+
+--------------------------------------------------------------------------------
+494 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of RandomForestRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'sqrt', 'log2'} or None. Got 'auto' instead.
+
+--------------------------------------------------------------------------------
+1800 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_forest.py", line 360, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:12:33,663 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 05:12:33,663 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 05:12:33,663 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 05:12:42,878 - __main__ - ERROR - Error processing model gradient_boosting: 
+All the 25920 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+25920 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_gb.py", line 658, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:12:42,890 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 05:12:42,890 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 05:12:42,890 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-18 05:12:46,512 - __main__ - ERROR - Error processing model decision_tree: 
+All the 14400 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+572 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'absolute_error', 'friedman_mse', 'squared_error'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+318 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'squared_error', 'poisson', 'absolute_error', 'friedman_mse'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+636 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'squared_error', 'friedman_mse', 'absolute_error'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+318 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'squared_error', 'absolute_error', 'poisson'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+922 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'absolute_error', 'squared_error', 'poisson', 'friedman_mse'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+318 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'absolute_error', 'squared_error', 'poisson'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+572 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'absolute_error', 'squared_error', 'friedman_mse', 'poisson'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+318 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'squared_error', 'poisson', 'friedman_mse', 'absolute_error'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+318 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'absolute_error', 'poisson', 'squared_error'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+254 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'poisson', 'absolute_error', 'squared_error'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+254 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'squared_error', 'absolute_error', 'friedman_mse'}. Got 'mse' instead.
+
+--------------------------------------------------------------------------------
+3600 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 1404, in fit
+    super()._fit(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 252, in _fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2959, in validate_data
+    y = check_array(y, input_name="y", **check_y_params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+--------------------------------------------------------------------------------
+1096 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of DecisionTreeRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'log2', 'sqrt'} or None. Got 'auto' instead.
+
+--------------------------------------------------------------------------------
+104 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of DecisionTreeRegressor must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'sqrt', 'log2'} or None. Got 'auto' instead.
+
+--------------------------------------------------------------------------------
+619 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'absolute_error', 'friedman_mse', 'squared_error'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+327 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'absolute_error', 'squared_error', 'poisson'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+984 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'absolute_error', 'squared_error', 'poisson', 'friedman_mse'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+328 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'squared_error', 'absolute_error', 'poisson'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+650 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'squared_error', 'friedman_mse', 'absolute_error'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+326 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'squared_error', 'poisson', 'friedman_mse', 'absolute_error'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+325 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'squared_error', 'poisson', 'absolute_error', 'friedman_mse'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+261 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'poisson', 'squared_error', 'absolute_error', 'friedman_mse'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+462 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'absolute_error', 'squared_error', 'friedman_mse', 'poisson'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+258 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'poisson', 'absolute_error', 'squared_error'}. Got 'mae' instead.
+
+--------------------------------------------------------------------------------
+260 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1382, in wrapper
+    estimator._validate_params()
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 436, in _validate_params
+    validate_parameter_constraints(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\_param_validation.py", line 98, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of DecisionTreeRegressor must be a str among {'friedman_mse', 'absolute_error', 'poisson', 'squared_error'}. Got 'mae' instead.
+
+2025-04-18 05:12:46,521 - __main__ - INFO - Processing model: elastic_net
+2025-04-18 05:12:46,522 - __main__ - INFO - Performing hyperparameter tuning for elastic_net
+2025-04-18 05:12:46,522 - __main__ - INFO - Performing grid search for elastic_net
+2025-04-18 05:12:47,350 - __main__ - ERROR - Error processing model elastic_net: 
+All the 1350 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1350 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\linear_model\_coordinate_descent.py", line 982, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:12:47,351 - __main__ - WARNING - No successful models trained
+2025-04-18 05:19:30,755 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 05:19:30,757 - __main__ - INFO - Loaded data with shape X: (16512, 10), y: (16512,)
+2025-04-18 05:19:30,758 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 05:19:30,760 - __main__ - INFO - Processing model: random_forest
+2025-04-18 05:19:30,760 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 05:19:30,760 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 05:19:41,579 - __main__ - ERROR - Error processing model random_forest: 
+All the 23400 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+23400 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_forest.py", line 360, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:19:41,592 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 05:19:41,592 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 05:19:41,593 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 05:19:51,195 - __main__ - ERROR - Error processing model gradient_boosting: 
+All the 25920 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+25920 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_gb.py", line 658, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:19:51,209 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 05:19:51,209 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 05:19:51,209 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-18 05:20:12,482 - __main__ - ERROR - Error processing model decision_tree: 
+All the 67200 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+67200 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 1404, in fit
+    super()._fit(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 252, in _fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2959, in validate_data
+    y = check_array(y, input_name="y", **check_y_params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:20:12,510 - __main__ - INFO - Processing model: elastic_net
+2025-04-18 05:20:12,511 - __main__ - INFO - Performing hyperparameter tuning for elastic_net
+2025-04-18 05:20:12,511 - __main__ - INFO - Performing grid search for elastic_net
+2025-04-18 05:20:13,478 - __main__ - ERROR - Error processing model elastic_net: 
+All the 1350 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1350 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\linear_model\_coordinate_descent.py", line 982, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:20:13,479 - __main__ - WARNING - No successful models trained
+2025-04-18 05:20:30,896 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 05:20:30,899 - __main__ - INFO - Loaded data with shape X: (16512, 10), y: (16512,)
+2025-04-18 05:20:30,899 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 05:20:30,901 - __main__ - INFO - Processing model: random_forest
+2025-04-18 05:20:30,901 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 05:20:30,901 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 05:20:41,448 - __main__ - ERROR - Error processing model random_forest: 
+All the 23400 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+23400 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_forest.py", line 360, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:20:41,459 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 05:20:41,459 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 05:20:41,460 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 05:20:50,769 - __main__ - ERROR - Error processing model gradient_boosting: 
+All the 25920 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+25920 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_gb.py", line 658, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:20:50,782 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 05:20:50,782 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 05:20:50,782 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-18 05:21:13,077 - __main__ - ERROR - Error processing model decision_tree: 
+All the 67200 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+67200 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 1404, in fit
+    super()._fit(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 252, in _fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2959, in validate_data
+    y = check_array(y, input_name="y", **check_y_params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:21:13,115 - __main__ - INFO - Processing model: elastic_net
+2025-04-18 05:21:13,115 - __main__ - INFO - Performing hyperparameter tuning for elastic_net
+2025-04-18 05:21:13,116 - __main__ - INFO - Performing grid search for elastic_net
+2025-04-18 05:21:14,086 - __main__ - ERROR - Error processing model elastic_net: 
+All the 1350 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1350 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\linear_model\_coordinate_descent.py", line 982, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:21:14,087 - __main__ - WARNING - No successful models trained
+2025-04-18 05:23:57,080 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 05:23:57,083 - __main__ - INFO - Loaded data with shape X: (16512, 10), y: (16512,)
+2025-04-18 05:23:57,083 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 05:23:57,085 - __main__ - INFO - Processing model: random_forest
+2025-04-18 05:23:57,085 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 05:23:57,085 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 05:24:02,367 - __main__ - ERROR - Error processing model random_forest: 
+All the 5400 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+5400 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_forest.py", line 360, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:24:02,370 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 05:24:02,370 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 05:24:02,370 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 05:24:11,482 - __main__ - ERROR - Error processing model gradient_boosting: 
+All the 25920 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+25920 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\ensemble\_gb.py", line 658, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:24:11,494 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 05:24:11,495 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 05:24:11,495 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-18 05:24:16,178 - __main__ - ERROR - Error processing model decision_tree: 
+All the 14400 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+14400 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 1404, in fit
+    super()._fit(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\tree\_classes.py", line 252, in _fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2959, in validate_data
+    y = check_array(y, input_name="y", **check_y_params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:24:16,185 - __main__ - INFO - Processing model: elastic_net
+2025-04-18 05:24:16,186 - __main__ - INFO - Performing hyperparameter tuning for elastic_net
+2025-04-18 05:24:16,186 - __main__ - INFO - Performing grid search for elastic_net
+2025-04-18 05:24:17,074 - __main__ - ERROR - Error processing model elastic_net: 
+All the 1350 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1350 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\model_selection\_validation.py", line 866, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\linear_model\_coordinate_descent.py", line 982, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 2961, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1387, in check_X_y
+    y = _check_y(y, multi_output=multi_output, y_numeric=y_numeric, estimator=estimator)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1397, in _check_y
+    y = check_array(
+        ^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\sklearn\utils\validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.
+
+2025-04-18 05:24:17,075 - __main__ - WARNING - No successful models trained
+2025-04-18 05:26:52,062 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 05:26:52,064 - __main__ - INFO - Loaded data with shape X: (15685, 10), y: (15685,)
+2025-04-18 05:26:52,065 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 05:26:52,067 - __main__ - INFO - Processing model: random_forest
+2025-04-18 05:26:52,067 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 05:26:52,067 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 06:24:13,643 - __main__ - INFO - Best parameters: {'bootstrap': False, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}
+2025-04-18 06:24:13,644 - __main__ - INFO - Best score: -0.2975403415542975
+2025-04-18 06:24:13,898 - __main__ - INFO - Validation metrics: RMSE=0.5431, MAE=0.3702, R²=0.7789
+2025-04-18 06:24:14,246 - __main__ - INFO - Model saved to models/random_forest_model.joblib
+2025-04-18 06:24:15,520 - __main__ - INFO - Feature importance plot saved to reports/figures/random_forest_feature_importance.png
+2025-04-18 06:24:25,921 - __main__ - INFO - Logged model, parameters, metrics, and artifacts to MLflow
+2025-04-18 06:24:53,942 - __main__ - INFO - Model saved to models/best_model.joblib
+2025-04-18 06:24:53,942 - __main__ - INFO - New best model: random_forest with R² = 0.7789
+2025-04-18 06:24:53,942 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 06:24:53,943 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 06:24:53,943 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 08:47:42,715 - __main__ - INFO - Best parameters: {'learning_rate': 0.1, 'max_depth': 7, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 300, 'subsample': 0.8}
+2025-04-18 08:47:42,717 - __main__ - INFO - Best score: -0.2570765029883988
+2025-04-18 08:47:42,742 - __main__ - INFO - Validation metrics: RMSE=0.5110, MAE=0.3452, R²=0.8043
+2025-04-18 08:47:42,779 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-04-18 08:47:43,737 - __main__ - INFO - Feature importance plot saved to reports/figures/gradient_boosting_feature_importance.png
+2025-04-18 08:47:51,704 - __main__ - INFO - Logged model, parameters, metrics, and artifacts to MLflow
+2025-04-18 08:47:51,764 - __main__ - INFO - Model saved to models/best_model.joblib
+2025-04-18 08:47:51,764 - __main__ - INFO - New best model: gradient_boosting with R² = 0.8043
+2025-04-18 08:47:51,768 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 08:47:51,768 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 08:47:51,769 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-18 08:57:36,607 - __main__ - INFO - Best parameters: {'criterion': 'absolute_error', 'max_depth': 15, 'max_features': None, 'min_samples_leaf': 10, 'min_samples_split': 2, 'splitter': 'best'}
+2025-04-18 08:57:36,608 - __main__ - INFO - Best score: -0.43969403953222547
+2025-04-18 08:57:36,610 - __main__ - INFO - Validation metrics: RMSE=0.6826, MAE=0.4528, R²=0.6508
+2025-04-18 08:57:36,612 - __main__ - INFO - Model saved to models/decision_tree_model.joblib
+2025-04-18 08:57:36,791 - __main__ - INFO - Feature importance plot saved to reports/figures/decision_tree_feature_importance.png
+2025-04-18 08:57:40,260 - __main__ - INFO - Logged model, parameters, metrics, and artifacts to MLflow
+2025-04-18 08:57:40,263 - __main__ - INFO - Processing model: elastic_net
+2025-04-18 08:57:40,263 - __main__ - INFO - Performing hyperparameter tuning for elastic_net
+2025-04-18 08:57:40,263 - __main__ - INFO - Performing grid search for elastic_net
+2025-04-18 08:57:41,669 - __main__ - INFO - Best parameters: {'alpha': 0.01, 'l1_ratio': 0.3, 'max_iter': 1000, 'tol': 0.0001}
+2025-04-18 08:57:41,670 - __main__ - INFO - Best score: -0.5714684252990264
+2025-04-18 08:57:41,673 - __main__ - INFO - Validation metrics: RMSE=0.7356, MAE=0.5432, R²=0.5945
+2025-04-18 08:57:41,675 - __main__ - INFO - Model saved to models/elastic_net_model.joblib
+2025-04-18 08:57:45,025 - __main__ - INFO - Logged model, parameters, metrics, and artifacts to MLflow
+2025-04-18 08:57:45,028 - __main__ - INFO - Best model: gradient_boosting with metrics: {'rmse': 0.5110373153127372, 'mae': 0.34519212456963877, 'r2': 0.8042719097230127}
+2025-04-18 08:57:45,029 - __main__ - INFO - Model comparison saved to reports/model_comparison.json
+2025-04-18 17:56:00,119 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-18 17:56:00,122 - __main__ - INFO - Loaded data with shape X: (15685, 10), y: (15685,)
+2025-04-18 17:56:00,123 - __main__ - INFO - Loaded 10 feature names
+2025-04-18 17:56:00,127 - __main__ - INFO - Processing model: random_forest
+2025-04-18 17:56:00,127 - __main__ - INFO - Performing hyperparameter tuning for random_forest
+2025-04-18 17:56:00,127 - __main__ - INFO - Performing grid search for random_forest
+2025-04-18 17:56:06,560 - __main__ - ERROR - Error processing model random_forest: A task has failed to un-serialize. Please ensure that the arguments of the function are all picklable.
+2025-04-18 17:56:06,561 - __main__ - INFO - Processing model: gradient_boosting
+2025-04-18 17:56:06,561 - __main__ - INFO - Performing hyperparameter tuning for gradient_boosting
+2025-04-18 17:56:06,561 - __main__ - INFO - Performing grid search for gradient_boosting
+2025-04-18 19:38:48,946 - __main__ - INFO - Best parameters: {'learning_rate': 0.05, 'max_depth': 8, 'max_features': None, 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 350, 'subsample': 0.8}
+2025-04-18 19:38:48,947 - __main__ - INFO - Best score: -0.2550862368696933
+2025-04-18 19:38:48,982 - __main__ - INFO - Validation metrics: RMSE=0.5020, MAE=0.3364, R²=0.8112
+2025-04-18 19:38:49,029 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-04-18 19:38:49,443 - __main__ - INFO - Feature importance plot saved to reports/figures/gradient_boosting_feature_importance.png
+2025-04-18 19:38:57,684 - __main__ - INFO - Logged model, parameters, metrics, and artifacts to MLflow with signature
+2025-04-18 19:38:57,720 - __main__ - INFO - Model saved to models/best_model.joblib
+2025-04-18 19:38:57,720 - __main__ - INFO - New best model: gradient_boosting with R² = 0.8112
+2025-04-18 19:38:57,720 - __main__ - INFO - Processing model: decision_tree
+2025-04-18 19:38:57,720 - __main__ - INFO - Performing hyperparameter tuning for decision_tree
+2025-04-18 19:38:57,720 - __main__ - INFO - Performing grid search for decision_tree
+2025-04-19 22:10:05,331 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-19 22:10:05,338 - __main__ - INFO - Loaded data with shape X: (15685, 10), y: (15685,)
+2025-04-19 22:10:05,338 - __main__ - INFO - Loaded 10 feature names
+2025-04-19 22:10:05,344 - __main__ - INFO - 
+Training random_forest model
+2025-04-19 22:36:07,385 - __main__ - INFO - Best parameters for random_forest: {'n_estimators': 261, 'max_depth': 23, 'min_samples_split': 4, 'min_samples_leaf': 2, 'max_features': None}
+2025-04-19 22:36:07,385 - __main__ - INFO - Training random_forest model
+2025-04-19 22:36:24,757 - __main__ - INFO - Validation metrics for random_forest: {'mean_squared_error': 0.29710324527439846, 'root_mean_squared_error': 0.5450717799284773, 'mean_absolute_error': 0.3704675568330158, 'r2_score': 0.7714414578103177}
+2025-04-19 22:36:25,912 - __main__ - INFO - Model saved to models/random_forest_model.joblib
+2025-04-19 22:36:36,860 - __main__ - INFO - Completed training and logging for random_forest
+2025-04-19 22:36:36,860 - __main__ - INFO - 
+Training gradient_boosting model
+2025-04-19 23:10:54,539 - __main__ - INFO - Best parameters for gradient_boosting: {'n_estimators': 443, 'learning_rate': 0.08118672855721029, 'max_depth': 7, 'min_samples_split': 6, 'min_samples_leaf': 8, 'subsample': 0.8828515975202125}
+2025-04-19 23:10:54,547 - __main__ - INFO - Training gradient_boosting model
+2025-04-19 23:11:18,498 - __main__ - INFO - Validation metrics for gradient_boosting: {'mean_squared_error': 0.23978861428182627, 'root_mean_squared_error': 0.4896821563849619, 'mean_absolute_error': 0.3338292263369165, 'r2_score': 0.815533027707857}
+2025-04-19 23:11:19,233 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-04-19 23:11:27,123 - __main__ - INFO - Completed training and logging for gradient_boosting
+2025-04-19 23:11:27,125 - __main__ - INFO - 
+Training elastic_net model
+2025-04-19 23:12:09,553 - __main__ - INFO - Best parameters for elastic_net: {'alpha': 0.0010126114159194764, 'l1_ratio': 0.11376287548139027, 'max_iter': 4841}
+2025-04-19 23:12:09,555 - __main__ - INFO - Training elastic_net model
+2025-04-19 23:12:10,146 - __main__ - INFO - Validation metrics for elastic_net: {'mean_squared_error': 0.5286706590280545, 'root_mean_squared_error': 0.7270974205896034, 'mean_absolute_error': 0.5359341104081407, 'r2_score': 0.5932989725025972}
+2025-04-19 23:12:10,149 - __main__ - INFO - Model saved to models/elastic_net_model.joblib
+2025-04-19 23:12:15,092 - __main__ - INFO - Completed training and logging for elastic_net
+2025-04-19 23:12:15,092 - __main__ - INFO - 
+Training lasso model
+2025-04-19 23:12:53,079 - __main__ - INFO - Best parameters for lasso: {'alpha': 0.0001022161765656546, 'max_iter': 4931, 'tol': 0.009961800287606837}
+2025-04-19 23:12:53,080 - __main__ - INFO - Training lasso model
+2025-04-19 23:12:53,544 - __main__ - INFO - Validation metrics for lasso: {'mean_squared_error': 0.5285874863820929, 'root_mean_squared_error': 0.7270402233591294, 'mean_absolute_error': 0.5358324200074843, 'r2_score': 0.5933629563836669}
+2025-04-19 23:12:53,545 - __main__ - INFO - Model saved to models/lasso_model.joblib
+2025-04-19 23:12:58,583 - __main__ - INFO - Completed training and logging for lasso
+2025-04-19 23:12:58,583 - __main__ - INFO - 
+Training ridge model
+2025-04-19 23:13:01,341 - __main__ - INFO - Best parameters for ridge: {'alpha': 0.00010434917097528325, 'max_iter': 1601, 'tol': 0.007615256005390728, 'solver': 'sparse_cg'}
+2025-04-19 23:13:01,342 - __main__ - INFO - Training ridge model
+2025-04-19 23:13:01,350 - __main__ - INFO - Validation metrics for ridge: {'mean_squared_error': 0.527950155527761, 'root_mean_squared_error': 0.7266017860752622, 'mean_absolute_error': 0.5357856656644425, 'r2_score': 0.5938532486079205}
+2025-04-19 23:13:01,351 - __main__ - INFO - Model saved to models/ridge_model.joblib
+2025-04-19 23:13:06,316 - __main__ - INFO - Completed training and logging for ridge
+2025-04-19 23:13:06,316 - __main__ - INFO - 
+Training xgboost model
+2025-04-19 23:15:22,900 - __main__ - INFO - Best parameters for xgboost: {'n_estimators': 600, 'max_depth': 7, 'learning_rate': 0.057299739795619295, 'subsample': 0.8555970845267477, 'colsample_bytree': 0.962878554747649}
+2025-04-19 23:15:22,901 - __main__ - INFO - Training xgboost model
+2025-04-19 23:15:24,275 - __main__ - INFO - Validation metrics for xgboost: {'mean_squared_error': 0.23669920489327592, 'root_mean_squared_error': 0.48651742506643675, 'mean_absolute_error': 0.33020301494910875, 'r2_score': 0.8179096793173741}
+2025-04-19 23:15:24,602 - __main__ - INFO - Model saved to models/xgboost_model.joblib
+2025-04-19 23:15:30,520 - __main__ - INFO - Completed training and logging for xgboost
+2025-04-19 23:15:30,521 - __main__ - INFO - 
+Training linear_regression model
+2025-04-19 23:21:35,153 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-19 23:21:35,162 - __main__ - INFO - Loaded data with shape X: (15685, 10), y: (15685,)
+2025-04-19 23:21:35,163 - __main__ - INFO - Loaded 10 feature names
+2025-04-19 23:21:35,170 - __main__ - INFO - 
+Training random_forest model
+2025-04-20 00:11:12,277 - __main__ - INFO - Best parameters for random_forest: {'n_estimators': 310, 'max_depth': 26, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}
+2025-04-20 00:11:12,281 - __main__ - INFO - Training random_forest model
+2025-04-20 00:11:34,703 - __main__ - INFO - Validation metrics for random_forest: {'mean_squared_error': 0.29747827885012806, 'root_mean_squared_error': 0.5454156936228807, 'mean_absolute_error': 0.37069228074576005, 'r2_score': 0.7711529482477184}
+2025-04-20 00:11:36,069 - __main__ - INFO - Model saved to models/random_forest_model.joblib
+2025-04-20 00:11:49,218 - __main__ - INFO - Completed training and logging for random_forest
+2025-04-20 00:11:49,219 - __main__ - INFO - 
+Training gradient_boosting model
+2025-04-20 00:50:10,441 - __main__ - INFO - Best parameters for gradient_boosting: {'n_estimators': 440, 'learning_rate': 0.0635458701540526, 'max_depth': 7, 'min_samples_split': 11, 'min_samples_leaf': 2, 'subsample': 0.8725465851531437}
+2025-04-20 00:50:10,442 - __main__ - INFO - Training gradient_boosting model
+2025-04-20 00:50:34,124 - __main__ - INFO - Validation metrics for gradient_boosting: {'mean_squared_error': 0.23971100541518742, 'root_mean_squared_error': 0.48960290584838995, 'mean_absolute_error': 0.33384061718191194, 'r2_score': 0.8155927314293817}
+2025-04-20 00:50:34,717 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-04-20 00:50:48,271 - __main__ - INFO - Completed training and logging for gradient_boosting
+2025-04-20 00:50:48,272 - __main__ - INFO - 
+Training elastic_net model
+2025-04-20 00:51:33,100 - __main__ - INFO - Best parameters for elastic_net: {'alpha': 0.0010060279235395765, 'l1_ratio': 0.13581596886071265, 'max_iter': 1547}
+2025-04-20 00:51:33,101 - __main__ - INFO - Training elastic_net model
+2025-04-20 00:51:33,710 - __main__ - INFO - Validation metrics for elastic_net: {'mean_squared_error': 0.5286713156856776, 'root_mean_squared_error': 0.7270978721504262, 'mean_absolute_error': 0.5359368046611566, 'r2_score': 0.5932984673424839}
+2025-04-20 00:51:33,712 - __main__ - INFO - Model saved to models/elastic_net_model.joblib
+2025-04-20 00:51:38,826 - __main__ - INFO - Completed training and logging for elastic_net
+2025-04-20 00:51:38,827 - __main__ - INFO - 
+Training lasso model
+2025-04-20 00:52:15,400 - __main__ - INFO - Best parameters for lasso: {'alpha': 0.00010019301586607098, 'max_iter': 4683, 'tol': 0.007751740012443507}
+2025-04-20 00:52:15,400 - __main__ - INFO - Training lasso model
+2025-04-20 00:52:15,883 - __main__ - INFO - Validation metrics for lasso: {'mean_squared_error': 0.5285873766751037, 'root_mean_squared_error': 0.7270401479114504, 'mean_absolute_error': 0.535831721272412, 'r2_score': 0.5933630407801516}
+2025-04-20 00:52:15,886 - __main__ - INFO - Model saved to models/lasso_model.joblib
+2025-04-20 00:52:20,851 - __main__ - INFO - Completed training and logging for lasso
+2025-04-20 00:52:20,852 - __main__ - INFO - 
+Training ridge model
+2025-04-20 00:52:23,474 - __main__ - INFO - Best parameters for ridge: {'alpha': 0.00010005135715591291, 'max_iter': 4406, 'tol': 0.007052418112371635, 'solver': 'sparse_cg'}
+2025-04-20 00:52:23,474 - __main__ - INFO - Training ridge model
+2025-04-20 00:52:23,482 - __main__ - INFO - Validation metrics for ridge: {'mean_squared_error': 0.52795015548513, 'root_mean_squared_error': 0.7266017860459263, 'mean_absolute_error': 0.535785665623638, 'r2_score': 0.5938532486407162}
+2025-04-20 00:52:23,484 - __main__ - INFO - Model saved to models/ridge_model.joblib
+2025-04-20 00:52:28,369 - __main__ - INFO - Completed training and logging for ridge
+2025-04-20 00:52:28,369 - __main__ - INFO - 
+Training xgboost model
+2025-04-20 00:54:54,917 - __main__ - INFO - Best parameters for xgboost: {'n_estimators': 671, 'max_depth': 6, 'learning_rate': 0.0562051594886985, 'subsample': 0.7813428067474035, 'colsample_bytree': 0.9991900861591455}
+2025-04-20 00:54:54,917 - __main__ - INFO - Training xgboost model
+2025-04-20 00:54:55,968 - __main__ - INFO - Validation metrics for xgboost: {'mean_squared_error': 0.23734351048111546, 'root_mean_squared_error': 0.4871791359254986, 'mean_absolute_error': 0.33100873748042053, 'r2_score': 0.8174140215006941}
+2025-04-20 00:54:56,302 - __main__ - INFO - Model saved to models/xgboost_model.joblib
+2025-04-20 00:55:01,685 - __main__ - INFO - Completed training and logging for xgboost
+2025-04-20 00:55:01,686 - __main__ - INFO - 
+Training linear_regression model
+2025-04-20 00:56:52,829 - __main__ - INFO - Loading data from data/processed/train_data.npz
+2025-04-20 00:56:52,835 - __main__ - INFO - Loaded data with shape X: (15685, 10), y: (15685,)
+2025-04-20 00:56:52,836 - __main__ - INFO - Loaded 10 feature names
+2025-04-20 00:56:52,842 - __main__ - INFO - 
+Training random_forest model
+2025-04-20 01:26:28,074 - __main__ - INFO - Best parameters for random_forest: {'n_estimators': 263, 'max_depth': 30, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': None}
+2025-04-20 01:26:28,075 - __main__ - INFO - Training random_forest model
+2025-04-20 01:26:46,629 - __main__ - INFO - Validation metrics for random_forest: {'mean_squared_error': 0.2971537509970528, 'root_mean_squared_error': 0.54511810738321, 'mean_absolute_error': 0.3704033939403319, 'r2_score': 0.7714026042652093}
+2025-04-20 01:26:47,660 - __main__ - INFO - Model saved to models/random_forest_model.joblib
+2025-04-20 01:26:59,311 - __main__ - INFO - Completed training and logging for random_forest
+2025-04-20 01:26:59,311 - __main__ - INFO - 
+Training gradient_boosting model
+2025-04-20 02:00:54,347 - __main__ - INFO - Best parameters for gradient_boosting: {'n_estimators': 484, 'learning_rate': 0.07586623794827504, 'max_depth': 7, 'min_samples_split': 6, 'min_samples_leaf': 8, 'subsample': 0.8810250253003478}
+2025-04-20 02:00:54,348 - __main__ - INFO - Training gradient_boosting model
+2025-04-20 02:01:19,887 - __main__ - INFO - Validation metrics for gradient_boosting: {'mean_squared_error': 0.23818242916399132, 'root_mean_squared_error': 0.48803937255511604, 'mean_absolute_error': 0.33477057672567284, 'r2_score': 0.8167686497848896}
+2025-04-20 02:01:21,038 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-04-20 02:01:27,109 - __main__ - INFO - Completed training and logging for gradient_boosting
+2025-04-20 02:01:27,109 - __main__ - INFO - 
+Training elastic_net model
+2025-04-20 02:02:09,766 - __main__ - INFO - Best parameters for elastic_net: {'alpha': 0.0010047733170730287, 'l1_ratio': 0.10165747390807543, 'max_iter': 4149}
+2025-04-20 02:02:09,766 - __main__ - INFO - Training elastic_net model
+2025-04-20 02:02:10,342 - __main__ - INFO - Validation metrics for elastic_net: {'mean_squared_error': 0.528669120392206, 'root_mean_squared_error': 0.7270963625216441, 'mean_absolute_error': 0.5359311203916889, 'r2_score': 0.5933001561596998}
+2025-04-20 02:02:10,343 - __main__ - INFO - Model saved to models/elastic_net_model.joblib
+2025-04-20 02:02:15,428 - __main__ - INFO - Completed training and logging for elastic_net
+2025-04-20 02:02:15,430 - __main__ - INFO - 
+Training lasso model
+2025-04-20 02:02:54,240 - __main__ - INFO - Best parameters for lasso: {'alpha': 0.00010010471729334235, 'max_iter': 2894, 'tol': 0.0017209756155840339}
+2025-04-20 02:02:54,240 - __main__ - INFO - Training lasso model
+2025-04-20 02:02:54,753 - __main__ - INFO - Validation metrics for lasso: {'mean_squared_error': 0.5285878617492515, 'root_mean_squared_error': 0.7270404815065331, 'mean_absolute_error': 0.5358309834971932, 'r2_score': 0.5933626676174822}
+2025-04-20 02:02:54,755 - __main__ - INFO - Model saved to models/lasso_model.joblib
+2025-04-20 02:03:00,043 - __main__ - INFO - Completed training and logging for lasso
+2025-04-20 02:03:00,043 - __main__ - INFO - 
+Training ridge model
+2025-04-20 02:03:03,568 - __main__ - INFO - Best parameters for ridge: {'alpha': 0.00010031271049701743, 'max_iter': 4787, 'tol': 0.007614922807008412, 'solver': 'sparse_cg'}
+2025-04-20 02:03:03,568 - __main__ - INFO - Training ridge model
+2025-04-20 02:03:03,577 - __main__ - INFO - Validation metrics for ridge: {'mean_squared_error': 0.5279501554877224, 'root_mean_squared_error': 0.7266017860477102, 'mean_absolute_error': 0.5357856656261194, 'r2_score': 0.5938532486387219}
+2025-04-20 02:03:03,578 - __main__ - INFO - Model saved to models/ridge_model.joblib
+2025-04-20 02:03:08,775 - __main__ - INFO - Completed training and logging for ridge
+2025-04-20 02:03:08,775 - __main__ - INFO - 
+Training xgboost model
+2025-04-20 02:05:19,720 - __main__ - INFO - Best parameters for xgboost: {'n_estimators': 772, 'max_depth': 6, 'learning_rate': 0.044244648798402786, 'subsample': 0.7627184353071255, 'colsample_bytree': 0.8322495809269759}
+2025-04-20 02:05:19,720 - __main__ - INFO - Training xgboost model
+2025-04-20 02:05:20,285 - __main__ - INFO - Validation metrics for xgboost: {'mean_squared_error': 0.2379783384039275, 'root_mean_squared_error': 0.48783023522935465, 'mean_absolute_error': 0.3314579204310309, 'r2_score': 0.8169256547565166}
+2025-04-20 02:05:20,529 - __main__ - INFO - Model saved to models/xgboost_model.joblib
+2025-04-20 02:05:24,270 - __main__ - INFO - Completed training and logging for xgboost
+2025-04-20 02:05:24,270 - __main__ - INFO - 
+Training linear_regression model
+2025-04-20 02:05:25,056 - __main__ - INFO - Best parameters for linear_regression: {'fit_intercept': True, 'n_jobs': 4}
+2025-04-20 02:05:25,056 - __main__ - INFO - Training linear_regression model
+2025-04-20 02:05:25,061 - __main__ - INFO - Validation metrics for linear_regression: {'mean_squared_error': 0.5285769219503075, 'root_mean_squared_error': 0.727032957953288, 'mean_absolute_error': 0.5358054245633725, 'r2_score': 0.5933710834949197}
+2025-04-20 02:05:25,063 - __main__ - INFO - Model saved to models/linear_regression_model.joblib
+2025-04-20 02:05:28,554 - __main__ - INFO - Completed training and logging for linear_regression
+2025-05-01 09:57:44,537 - __main__ - INFO - Loading training data from data/processed/train_data.npz
+2025-05-01 09:57:44,541 - __main__ - INFO - Loaded training data with shape X: (13724, 10), y: (13724,)
+2025-05-01 09:57:44,541 - __main__ - INFO - Loading validation data from data/processed/val_data.npz
+2025-05-01 09:57:44,542 - __main__ - INFO - Loaded validation data with shape X: (2941, 10), y: (2941,)
+2025-05-01 09:57:44,542 - __main__ - INFO - Loaded 10 feature names
+2025-05-01 09:57:44,543 - __main__ - INFO - 
+Training random_forest model
+2025-05-01 10:10:07,806 - __main__ - INFO - Best parameters for random_forest: {'n_estimators': 84, 'max_depth': 27, 'min_samples_split': 7, 'min_samples_leaf': 1, 'max_features': 'log2'}
+2025-05-01 10:10:07,806 - __main__ - INFO - Training random_forest model
+2025-05-01 10:10:10,253 - __main__ - INFO - Training metrics for random_forest: {'train_mean_squared_error': 0.08220387108691007, 'train_root_mean_squared_error': 0.2867121746401957, 'train_mean_absolute_error': 0.19303000337773085, 'train_r2_score': 0.9380732216609475}
+2025-05-01 10:10:10,253 - __main__ - INFO - Validation metrics for random_forest: {'val_mean_squared_error': 0.29480303299130045, 'val_root_mean_squared_error': 0.5429576714545071, 'val_mean_absolute_error': 0.37313323608344945, 'val_r2_score': 0.7832006811840818}
+2025-05-01 10:10:11,048 - __main__ - INFO - Model saved to models/random_forest_model.joblib
+2025-05-01 10:10:20,387 - __main__ - INFO - Completed training and logging for random_forest
+2025-05-01 10:10:20,388 - __main__ - INFO - 
+Training gradient_boosting model
+2025-05-01 10:48:49,896 - __main__ - INFO - Best parameters for gradient_boosting: {'n_estimators': 360, 'learning_rate': 0.09333852888607891, 'max_depth': 7, 'min_samples_split': 4, 'min_samples_leaf': 1, 'subsample': 0.8716712831937917}
+2025-05-01 10:48:49,896 - __main__ - INFO - Training gradient_boosting model
+2025-05-01 10:49:11,801 - __main__ - INFO - Training metrics for gradient_boosting: {'train_mean_squared_error': 0.03369147159958137, 'train_root_mean_squared_error': 0.1835523674583942, 'train_mean_absolute_error': 0.13536229357549245, 'train_r2_score': 0.9746191479053595}
+2025-05-01 10:49:11,801 - __main__ - INFO - Validation metrics for gradient_boosting: {'val_mean_squared_error': 0.23884687762519063, 'val_root_mean_squared_error': 0.4887196308981159, 'val_mean_absolute_error': 0.32998511196679386, 'val_r2_score': 0.8243510596039955}
+2025-05-01 10:49:12,046 - __main__ - INFO - Model saved to models/gradient_boosting_model.joblib
+2025-05-01 10:49:17,101 - __main__ - INFO - Completed training and logging for gradient_boosting
+2025-05-01 10:49:17,102 - __main__ - INFO - 
+Training elastic_net model
+2025-05-01 10:49:32,583 - __main__ - INFO - Best parameters for elastic_net: {'alpha': 0.017286646624314967, 'l1_ratio': 0.2712958067451694, 'max_iter': 2300}
+2025-05-01 10:49:32,583 - __main__ - INFO - Training elastic_net model
+2025-05-01 10:49:32,740 - __main__ - INFO - Training metrics for elastic_net: {'train_mean_squared_error': 0.5607923491148649, 'train_root_mean_squared_error': 0.7488607007413761, 'train_mean_absolute_error': 0.5451017238074674, 'train_r2_score': 0.5775373709450187}
+2025-05-01 10:49:32,740 - __main__ - INFO - Validation metrics for elastic_net: {'val_mean_squared_error': 0.5696302723323248, 'val_root_mean_squared_error': 0.7547385456781207, 'val_mean_absolute_error': 0.5473028736918947, 'val_r2_score': 0.5810916401860143}
+2025-05-01 10:49:32,743 - __main__ - INFO - Model saved to models/elastic_net_model.joblib
+2025-05-01 10:49:36,523 - __main__ - INFO - Completed training and logging for elastic_net
+2025-05-01 10:49:36,525 - __main__ - INFO - 
+Training lasso model
+2025-05-01 10:49:45,394 - __main__ - INFO - Best parameters for lasso: {'alpha': 0.009626536013266846, 'max_iter': 4267, 'tol': 0.007274362827918657}
+2025-05-01 10:49:45,394 - __main__ - INFO - Training lasso model
+2025-05-01 10:49:45,462 - __main__ - INFO - Training metrics for lasso: {'train_mean_squared_error': 0.5620751987077787, 'train_root_mean_squared_error': 0.7497167456498345, 'train_mean_absolute_error': 0.5452472533800197, 'train_r2_score': 0.5765709597367348}
+2025-05-01 10:49:45,462 - __main__ - INFO - Validation metrics for lasso: {'val_mean_squared_error': 0.570237236956194, 'val_root_mean_squared_error': 0.7551405411949447, 'val_mean_absolute_error': 0.5475663084669061, 'val_r2_score': 0.5806452759961178}
+2025-05-01 10:49:45,463 - __main__ - INFO - Model saved to models/lasso_model.joblib
+2025-05-01 10:49:49,165 - __main__ - INFO - Completed training and logging for lasso
+2025-05-01 10:49:49,165 - __main__ - INFO - 
+Training ridge model
+2025-05-01 10:49:52,808 - __main__ - INFO - Best parameters for ridge: {'alpha': 9.721835347227604, 'max_iter': 4453, 'tol': 0.00964120972656394, 'solver': 'saga'}
+2025-05-01 10:49:52,808 - __main__ - INFO - Training ridge model
+2025-05-01 10:49:52,842 - __main__ - INFO - Training metrics for ridge: {'train_mean_squared_error': 0.5579223598222928, 'train_root_mean_squared_error': 0.7469420056619475, 'train_mean_absolute_error': 0.5413149055047565, 'train_r2_score': 0.579699424731618}
+2025-05-01 10:49:52,842 - __main__ - INFO - Validation metrics for ridge: {'val_mean_squared_error': 0.5886488174654828, 'val_root_mean_squared_error': 0.7672345257256629, 'val_mean_absolute_error': 0.5453900686297382, 'val_r2_score': 0.5671053267213895}
+2025-05-01 10:49:52,843 - __main__ - INFO - Model saved to models/ridge_model.joblib
+2025-05-01 10:49:56,581 - __main__ - INFO - Completed training and logging for ridge
+2025-05-01 10:49:56,581 - __main__ - INFO - 
+Training xgboost model
+2025-05-01 10:52:06,247 - __main__ - INFO - Best parameters for xgboost: {'n_estimators': 595, 'max_depth': 8, 'learning_rate': 0.05260662389143213, 'subsample': 0.6746635888024273, 'colsample_bytree': 0.5090804589111865}
+2025-05-01 10:52:06,248 - __main__ - INFO - Training xgboost model
+2025-05-01 10:52:07,186 - __main__ - INFO - Training metrics for xgboost: {'train_mean_squared_error': 0.017911316264601386, 'train_root_mean_squared_error': 0.1338331657871149, 'train_mean_absolute_error': 0.09688152634110092, 'train_r2_score': 0.9865068384564768}
+2025-05-01 10:52:07,187 - __main__ - INFO - Validation metrics for xgboost: {'val_mean_squared_error': 0.2316014559992406, 'val_root_mean_squared_error': 0.48124988934984764, 'val_mean_absolute_error': 0.32664143677435536, 'val_r2_score': 0.8296793713825463}
+2025-05-01 10:52:07,427 - __main__ - INFO - Model saved to models/xgboost_model.joblib
+2025-05-01 10:52:11,324 - __main__ - INFO - Completed training and logging for xgboost
+2025-05-01 10:52:11,324 - __main__ - INFO - 
+Training linear_regression model
+2025-05-01 10:52:12,158 - __main__ - INFO - Best parameters for linear_regression: {'fit_intercept': True, 'n_jobs': 13}
+2025-05-01 10:52:12,158 - __main__ - INFO - Training linear_regression model
+2025-05-01 10:52:12,166 - __main__ - INFO - Training metrics for linear_regression: {'train_mean_squared_error': 0.5548050116641653, 'train_root_mean_squared_error': 0.7448523421888161, 'train_mean_absolute_error': 0.5401638270689123, 'train_r2_score': 0.582047821782043}
+2025-05-01 10:52:12,166 - __main__ - INFO - Validation metrics for linear_regression: {'val_mean_squared_error': 0.5946403595209664, 'val_root_mean_squared_error': 0.771129275492097, 'val_mean_absolute_error': 0.5449301087432638, 'val_r2_score': 0.5626991229482956}
+2025-05-01 10:52:12,167 - __main__ - INFO - Model saved to models/linear_regression_model.joblib
+2025-05-01 10:52:15,672 - __main__ - INFO - Completed training and logging for linear_regression

@@ -16,7 +16,6 @@ env/
 # MLflow specific
 mlruns/
 mlflow.db
-models/*/
 mlartifacts/
 
 # Model files
@@ -32,21 +31,7 @@ mlartifacts/
 *.bin
 *.savedmodel
 
-# Data
-data/raw/
-data/processed/
-data/predictions/
-*.csv
-*.parquet
-*.feather
-*.arrow
-*.dat
 
-# Logs
-logs/
-*.log
-wandb/
-tensorboard/
 
 # IDE specific
 .vscode/

@@ -1,0 +1,681 @@
+2025-04-18 16:58:35,962 - __main__ - INFO - Loading model from models/best_model.joblib
+2025-04-18 16:58:36,387 - __main__ - INFO - Model loaded successfully
+2025-04-18 16:58:36,389 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 16:58:36,393 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 16:58:36,394 - __main__ - INFO - Evaluating regression model
+2025-04-18 16:58:37,179 - __main__ - INFO - Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 16:58:37,180 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-18 16:58:38,266 - __main__ - INFO - Evaluation logged with MLflow run ID: 99d388243efb41619f591f29d26b5fa5
+2025-04-18 16:58:38,271 - __main__ - INFO - Model evaluation completed successfully
+2025-04-18 17:00:17,004 - __main__ - INFO - Loading model from models/random_forest_model.joblib
+2025-04-18 17:00:18,206 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:00:18,206 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:00:18,208 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:00:18,209 - __main__ - INFO - Evaluating regression model
+2025-04-18 17:00:19,042 - __main__ - INFO - Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:00:19,042 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-18 17:00:19,549 - __main__ - INFO - Evaluation logged with MLflow run ID: 34f8eaeb4e1341d482e4f96ead0d72db
+2025-04-18 17:00:19,553 - __main__ - INFO - Model evaluation completed successfully
+2025-04-18 17:01:58,175 - __main__ - INFO - Loading model from models/random_forest_model.joblib
+2025-04-18 17:01:59,044 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:01:59,044 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:01:59,047 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:01:59,048 - __main__ - INFO - Evaluating regression model
+2025-04-18 17:01:59,878 - __main__ - INFO - Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:01:59,879 - __main__ - INFO - Evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 17:01:59,879 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-18 17:02:00,439 - __main__ - INFO - Evaluation logged with MLflow run ID: 508d5241c22b4c52906e0701921176ea
+2025-04-18 17:02:00,443 - __main__ - INFO - Model evaluation completed successfully
+2025-04-18 17:04:23,260 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:04:23,261 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:04:23,262 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:04:23,263 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:04:23,421 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:23,422 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:04:23,859 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:04:23,860 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:04:24,358 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: aa630360d39948529b22a04f36f7bb59
+2025-04-18 17:04:24,361 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:04:24,361 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:04:24,362 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:24,362 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:04:24,765 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:04:24,765 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:04:24,818 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: 3694d1f698dc4a64a4d8647b6383ed32
+2025-04-18 17:04:24,823 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:04:24,824 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:04:24,881 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:24,882 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:04:25,272 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:04:25,272 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:04:25,321 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 1094f1342629465fae9f0eec7485398f
+2025-04-18 17:04:25,324 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:04:25,325 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:04:26,027 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:26,031 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:04:26,763 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:04:26,763 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 17:04:26,815 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: 5fafa7d08c0f44ea88e9673cd533615f
+2025-04-18 17:04:26,819 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 17:04:26,821 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-18 17:04:48,262 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:04:48,264 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:04:48,265 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:04:48,265 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:04:48,427 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:48,427 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:04:48,882 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:04:48,883 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:04:49,381 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: 18484350d4c74f739c361b3aa50b6ec5
+2025-04-18 17:04:49,384 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:04:49,384 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:04:49,385 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:49,386 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:04:49,735 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:04:49,736 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:04:49,786 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: 9a785546f6004205b041c5b7c37fa172
+2025-04-18 17:04:49,791 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:04:49,791 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:04:49,851 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:49,851 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:04:50,237 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:04:50,238 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:04:50,287 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 4c2bc1e604b848abb81a7b07f56c92d4
+2025-04-18 17:04:50,291 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:04:50,291 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:04:50,946 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:04:50,947 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:04:51,633 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:04:51,633 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 17:04:51,678 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: 451f962277fb44a5b60a9c4919e9b780
+2025-04-18 17:04:51,682 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 17:04:51,684 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-18 17:36:00,247 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:36:00,250 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:36:00,251 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:36:00,251 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:36:00,498 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:36:00,499 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:36:00,951 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 17:36:01,182 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 17:36:01,418 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 17:36:01,418 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:36:01,418 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:36:02,046 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: 10f04582c60245b8bda5a2c0cf3f58e6
+2025-04-18 17:36:02,049 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:36:02,049 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:36:02,050 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:36:02,050 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:36:02,259 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 17:36:02,481 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 17:36:02,776 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 17:36:02,777 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:36:02,777 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:36:02,834 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: da1359590a9e4e2fa73e1f86c309f317
+2025-04-18 17:36:02,838 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:36:02,839 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:36:03,056 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:36:03,057 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:36:03,322 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 17:36:03,546 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 17:36:03,797 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 17:36:03,798 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:36:03,798 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:36:03,850 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 2f6e6d89558a4e55b90bce1716e84319
+2025-04-18 17:36:03,853 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:36:03,854 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:36:04,748 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:36:04,751 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:36:05,328 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 17:36:05,576 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 17:36:05,831 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 17:36:05,831 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:36:05,832 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 17:36:05,884 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: d34f222bb0264957a08556bd627bfed0
+2025-04-18 17:36:05,888 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 17:36:05,891 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-18 17:42:12,483 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:42:12,486 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:42:12,487 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:42:12,487 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:42:12,488 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:42:12,488 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:42:12,818 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 17:42:13,022 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 17:42:13,260 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 17:42:13,260 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:42:13,260 - __main__ - INFO - Generating evaluation SHAP plots for decision_tree
+2025-04-18 17:42:13,261 - __main__ - ERROR - Error generating evaluation SHAP values/plots for decision_tree: name 'RandomForestRegressor' is not defined
+2025-04-18 17:42:13,261 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:42:13,261 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:42:13,452 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: 7ad63e441c8d419faa07262190ebf4b2
+2025-04-18 17:42:13,456 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:42:13,456 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:42:13,457 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:42:13,457 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:42:13,650 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 17:42:13,848 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 17:42:14,112 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 17:42:14,112 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:42:14,113 - __main__ - INFO - Generating evaluation SHAP plots for elastic_net
+2025-04-18 17:42:14,113 - __main__ - ERROR - Error generating evaluation SHAP values/plots for elastic_net: name 'RandomForestRegressor' is not defined
+2025-04-18 17:42:14,113 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:42:14,113 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:42:14,161 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: cc74961835a446429adb043650eaad6d
+2025-04-18 17:42:14,165 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:42:14,165 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:42:14,192 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:42:14,193 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:42:14,428 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 17:42:14,641 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 17:42:14,870 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 17:42:14,870 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:42:14,870 - __main__ - INFO - Generating evaluation SHAP plots for gradient_boosting
+2025-04-18 17:42:14,870 - __main__ - ERROR - Error generating evaluation SHAP values/plots for gradient_boosting: name 'RandomForestRegressor' is not defined
+2025-04-18 17:42:14,871 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:42:14,871 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:42:14,919 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: e0a9fadf1bb84179a585ff7f59400b1a
+2025-04-18 17:42:14,922 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:42:14,922 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:42:15,719 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:42:15,720 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:42:16,342 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 17:42:16,582 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 17:42:16,848 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 17:42:16,849 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:42:16,849 - __main__ - INFO - Generating evaluation SHAP plots for random_forest
+2025-04-18 17:42:16,849 - __main__ - ERROR - Error generating evaluation SHAP values/plots for random_forest: name 'RandomForestRegressor' is not defined
+2025-04-18 17:42:16,849 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 17:42:16,849 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 17:42:16,908 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: 2c2305196f6346a7992fb81f65dc96aa
+2025-04-18 17:42:16,913 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 17:42:16,917 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-18 17:48:42,601 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:48:42,603 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:48:42,604 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:48:42,604 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:48:42,605 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:48:42,606 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:48:42,908 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 17:48:43,108 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 17:48:43,334 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 17:48:43,334 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:48:43,334 - __main__ - INFO - Generating evaluation SHAP plots for decision_tree
+2025-04-18 17:48:44,003 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\decision_tree_eval_shap_summary_bar.png
+2025-04-18 17:48:44,464 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\decision_tree_eval_shap_summary_beeswarm.png
+2025-04-18 17:48:44,464 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:48:44,464 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:48:44,666 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: b90ce0a7472b4ad8aa7442387842b67c
+2025-04-18 17:48:44,669 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:48:44,669 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:48:44,670 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:48:44,671 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:48:44,861 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 17:48:45,071 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 17:48:45,334 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 17:48:45,334 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:48:45,334 - __main__ - INFO - Generating evaluation SHAP plots for elastic_net
+2025-04-18 17:48:45,507 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\elastic_net_eval_shap_summary_bar.png
+2025-04-18 17:48:45,980 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\elastic_net_eval_shap_summary_beeswarm.png
+2025-04-18 17:48:45,981 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:48:45,981 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:48:46,029 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: 692c96d247174a148f3b69ec9d9295f6
+2025-04-18 17:48:46,032 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:48:46,032 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:48:46,056 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:48:46,057 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:48:46,276 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 17:48:46,474 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 17:48:46,702 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 17:48:46,702 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:48:46,703 - __main__ - INFO - Generating evaluation SHAP plots for gradient_boosting
+2025-04-18 17:48:54,417 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\gradient_boosting_eval_shap_summary_bar.png
+2025-04-18 17:48:54,914 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\gradient_boosting_eval_shap_summary_beeswarm.png
+2025-04-18 17:48:54,915 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:48:54,915 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:48:54,967 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 943a3e705e454fa9af68c8edb489fb90
+2025-04-18 17:48:54,970 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:48:54,971 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:48:55,840 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:48:55,842 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:48:56,354 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 17:48:56,554 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 17:48:56,781 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 17:48:56,782 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:48:56,782 - __main__ - INFO - Generating evaluation SHAP plots for random_forest
+2025-04-18 17:53:08,545 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 17:53:08,547 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 17:53:08,547 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 17:53:08,548 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 17:53:08,548 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:53:08,549 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 17:53:08,842 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 17:53:09,046 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 17:53:09,270 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 17:53:09,270 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:53:09,270 - __main__ - INFO - Generating evaluation SHAP plots for decision_tree
+2025-04-18 17:53:09,959 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\decision_tree_eval_shap_summary_bar.png
+2025-04-18 17:53:10,433 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\decision_tree_eval_shap_summary_beeswarm.png
+2025-04-18 17:53:10,433 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 17:53:10,433 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 17:53:10,674 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: 44d17a4e457049d0b5c2cd5d628de5ea
+2025-04-18 17:53:10,677 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 17:53:10,678 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 17:53:10,678 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:53:10,679 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 17:53:10,891 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 17:53:11,134 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 17:53:11,402 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 17:53:11,402 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:53:11,402 - __main__ - INFO - Generating evaluation SHAP plots for elastic_net
+2025-04-18 17:53:11,591 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\elastic_net_eval_shap_summary_bar.png
+2025-04-18 17:53:12,061 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\elastic_net_eval_shap_summary_beeswarm.png
+2025-04-18 17:53:12,061 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 17:53:12,061 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 17:53:12,116 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: bb20961b06a94dbdbf6547e148356cd3
+2025-04-18 17:53:12,119 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 17:53:12,119 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 17:53:12,145 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:53:12,145 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 17:53:12,379 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 17:53:12,588 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 17:53:12,831 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 17:53:12,831 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:53:12,832 - __main__ - INFO - Generating evaluation SHAP plots for gradient_boosting
+2025-04-18 17:53:20,721 - __main__ - INFO - Evaluation SHAP summary bar plot saved to reports/figures/shap_evaluation\gradient_boosting_eval_shap_summary_bar.png
+2025-04-18 17:53:21,209 - __main__ - INFO - Evaluation SHAP summary beeswarm plot saved to reports/figures/shap_evaluation\gradient_boosting_eval_shap_summary_beeswarm.png
+2025-04-18 17:53:21,209 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 17:53:21,210 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 17:53:21,262 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 57d42407292c4207afbbcab98bd583d0
+2025-04-18 17:53:21,266 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 17:53:21,266 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 17:53:22,284 - __main__ - INFO - Model loaded successfully
+2025-04-18 17:53:22,286 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 17:53:22,887 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 17:53:23,111 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 17:53:23,359 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 17:53:23,360 - __main__ - INFO - Loaded 10 feature names for SHAP plots
+2025-04-18 17:53:23,360 - __main__ - INFO - Generating evaluation SHAP plots for random_forest
+2025-04-18 18:08:55,950 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 18:08:55,968 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 18:08:55,970 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 18:08:55,980 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 18:08:56,639 - __main__ - INFO - Model loaded successfully
+2025-04-18 18:08:56,659 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 18:08:57,390 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 18:08:57,853 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 18:08:58,393 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 18:08:58,413 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 18:08:58,417 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 18:09:02,516 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: a157b1e5fc35442f8e77e1faf1d0afcd
+2025-04-18 18:09:02,540 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 18:09:02,540 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 18:09:02,540 - __main__ - INFO - Model loaded successfully
+2025-04-18 18:09:02,542 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 18:09:03,178 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 18:09:03,828 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 18:09:04,703 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 18:09:04,749 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 18:09:04,770 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 18:09:04,967 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: b6a9343c4a5c498f936a3f73a3fe9ef7
+2025-04-18 18:09:04,972 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 18:09:04,973 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 18:09:05,655 - __main__ - INFO - Model loaded successfully
+2025-04-18 18:09:05,666 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 18:09:06,212 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 18:09:06,723 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 18:09:07,480 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 18:09:07,481 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5191, R²=0.8013
+2025-04-18 18:09:07,481 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 18:09:07,627 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: 6c450ad970aa4e7a8dbb86ca6d95f805
+2025-04-18 18:09:07,632 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 18:09:07,632 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 18:09:10,856 - __main__ - INFO - Model loaded successfully
+2025-04-18 18:09:10,862 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 18:09:12,315 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 18:09:12,902 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 18:09:13,652 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 18:09:13,652 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 18:09:13,653 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 18:09:13,852 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: 0d691dcdff584d6abd286bdbc7776424
+2025-04-18 18:09:13,859 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 18:09:13,862 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-18 20:18:49,320 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-18 20:18:49,323 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-18 20:18:49,324 - __main__ - INFO - --- Evaluating model: decision_tree (decision_tree_model.joblib) ---
+2025-04-18 20:18:49,324 - __main__ - INFO - Loading model from models\decision_tree_model.joblib
+2025-04-18 20:18:49,505 - __main__ - INFO - Model loaded successfully
+2025-04-18 20:18:49,506 - __main__ - INFO - Evaluating regression model: decision_tree
+2025-04-18 20:18:49,886 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/decision_tree_actual_vs_predicted.png
+2025-04-18 20:18:50,119 - __main__ - INFO - Saved Residuals plot to reports/figures/decision_tree_residuals.png
+2025-04-18 20:18:50,367 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/decision_tree_residuals_distribution.png
+2025-04-18 20:18:50,367 - __main__ - INFO - decision_tree Regression metrics: RMSE=0.6703, R²=0.6687
+2025-04-18 20:18:50,368 - __main__ - INFO - Logging evaluation results for decision_tree to MLflow
+2025-04-18 20:18:50,911 - __main__ - INFO - Evaluation for decision_tree logged with MLflow run ID: 7005bfadd1254abab6672013f59ee98d
+2025-04-18 20:18:50,915 - __main__ - INFO - --- Evaluating model: elastic_net (elastic_net_model.joblib) ---
+2025-04-18 20:18:50,915 - __main__ - INFO - Loading model from models\elastic_net_model.joblib
+2025-04-18 20:18:50,916 - __main__ - INFO - Model loaded successfully
+2025-04-18 20:18:50,916 - __main__ - INFO - Evaluating regression model: elastic_net
+2025-04-18 20:18:51,118 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/elastic_net_actual_vs_predicted.png
+2025-04-18 20:18:51,325 - __main__ - INFO - Saved Residuals plot to reports/figures/elastic_net_residuals.png
+2025-04-18 20:18:51,625 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/elastic_net_residuals_distribution.png
+2025-04-18 20:18:51,625 - __main__ - INFO - elastic_net Regression metrics: RMSE=0.7603, R²=0.5738
+2025-04-18 20:18:51,625 - __main__ - INFO - Logging evaluation results for elastic_net to MLflow
+2025-04-18 20:18:51,685 - __main__ - INFO - Evaluation for elastic_net logged with MLflow run ID: ebcc6d98b2294164b50cd5d62928d88a
+2025-04-18 20:18:51,688 - __main__ - INFO - --- Evaluating model: gradient_boosting (gradient_boosting_model.joblib) ---
+2025-04-18 20:18:51,689 - __main__ - INFO - Loading model from models\gradient_boosting_model.joblib
+2025-04-18 20:18:51,922 - __main__ - INFO - Model loaded successfully
+2025-04-18 20:18:51,923 - __main__ - INFO - Evaluating regression model: gradient_boosting
+2025-04-18 20:18:52,200 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/gradient_boosting_actual_vs_predicted.png
+2025-04-18 20:18:52,414 - __main__ - INFO - Saved Residuals plot to reports/figures/gradient_boosting_residuals.png
+2025-04-18 20:18:52,650 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/gradient_boosting_residuals_distribution.png
+2025-04-18 20:18:52,651 - __main__ - INFO - gradient_boosting Regression metrics: RMSE=0.5127, R²=0.8062
+2025-04-18 20:18:52,651 - __main__ - INFO - Logging evaluation results for gradient_boosting to MLflow
+2025-04-18 20:18:52,705 - __main__ - INFO - Evaluation for gradient_boosting logged with MLflow run ID: aad5fe935c8c483486739d5a2b82bd74
+2025-04-18 20:18:52,709 - __main__ - INFO - --- Evaluating model: random_forest (random_forest_model.joblib) ---
+2025-04-18 20:18:52,709 - __main__ - INFO - Loading model from models\random_forest_model.joblib
+2025-04-18 20:18:53,508 - __main__ - INFO - Model loaded successfully
+2025-04-18 20:18:53,511 - __main__ - INFO - Evaluating regression model: random_forest
+2025-04-18 20:18:54,093 - __main__ - INFO - Saved Actual vs Predicted plot to reports/figures/random_forest_actual_vs_predicted.png
+2025-04-18 20:18:54,312 - __main__ - INFO - Saved Residuals plot to reports/figures/random_forest_residuals.png
+2025-04-18 20:18:54,558 - __main__ - INFO - Saved Residuals Distribution plot to reports/figures/random_forest_residuals_distribution.png
+2025-04-18 20:18:54,559 - __main__ - INFO - random_forest Regression metrics: RMSE=0.5444, R²=0.7815
+2025-04-18 20:18:54,559 - __main__ - INFO - Logging evaluation results for random_forest to MLflow
+2025-04-18 20:18:54,613 - __main__ - INFO - Evaluation for random_forest logged with MLflow run ID: 38aad45980cd45dc87bb97b297c34542
+2025-04-18 20:18:54,618 - __main__ - INFO - Combined evaluation metrics saved to reports/evaluation_metrics.json
+2025-04-18 20:18:54,620 - __main__ - INFO - Multi-model evaluation completed successfully
+2025-04-20 02:25:44,734 - __main__ - ERROR - Please provide model path and test data path
+2025-04-20 02:27:50,424 - __main__ - INFO - Evaluating model: best_model
+2025-04-20 02:27:50,466 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:50,469 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:50,469 - __main__ - INFO - Evaluating regression model: best_model
+2025-04-20 02:27:51,054 - __main__ - ERROR - Error evaluating models\best_model.joblib: No default regression in data definition
+2025-04-20 02:27:51,055 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-04-20 02:27:51,056 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:51,057 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:51,057 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-04-20 02:27:51,469 - __main__ - ERROR - Error evaluating models\decision_tree_model.joblib: No default regression in data definition
+2025-04-20 02:27:51,470 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-04-20 02:27:51,470 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:51,471 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:51,472 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-04-20 02:27:51,825 - __main__ - ERROR - Error evaluating models\elastic_net_model.joblib: No default regression in data definition
+2025-04-20 02:27:51,826 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-04-20 02:27:51,859 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:51,860 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:51,861 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-04-20 02:27:52,282 - __main__ - ERROR - Error evaluating models\gradient_boosting_model.joblib: No default regression in data definition
+2025-04-20 02:27:52,282 - __main__ - INFO - Evaluating model: lasso_model
+2025-04-20 02:27:52,283 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:52,284 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:52,284 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-04-20 02:27:52,647 - __main__ - ERROR - Error evaluating models\lasso_model.joblib: No default regression in data definition
+2025-04-20 02:27:52,648 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-04-20 02:27:52,648 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:52,649 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:52,650 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-04-20 02:27:52,998 - __main__ - ERROR - Error evaluating models\linear_regression_model.joblib: No default regression in data definition
+2025-04-20 02:27:52,998 - __main__ - INFO - Evaluating model: random_forest_model
+2025-04-20 02:27:53,181 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:53,183 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:53,183 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-04-20 02:27:53,693 - __main__ - ERROR - Error evaluating models\random_forest_model.joblib: No default regression in data definition
+2025-04-20 02:27:53,694 - __main__ - INFO - Evaluating model: ridge_model
+2025-04-20 02:27:53,705 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:53,707 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:53,707 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-04-20 02:27:54,100 - __main__ - ERROR - Error evaluating models\ridge_model.joblib: No default regression in data definition
+2025-04-20 02:27:54,100 - __main__ - INFO - Evaluating model: xgboost_model
+2025-04-20 02:27:54,275 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:27:54,277 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:27:54,277 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-04-20 02:27:54,688 - __main__ - ERROR - Error evaluating models\xgboost_model.joblib: No default regression in data definition
+2025-04-20 02:31:25,382 - __main__ - INFO - Evaluating model: best_model
+2025-04-20 02:31:25,682 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:25,687 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:25,687 - __main__ - INFO - Evaluating regression model: best_model
+2025-04-20 02:31:26,377 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:27,535 - __main__ - INFO - Evaluation completed for best_model
+2025-04-20 02:31:27,535 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-04-20 02:31:27,540 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:27,541 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:27,541 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-04-20 02:31:27,892 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:27,943 - __main__ - INFO - Evaluation completed for decision_tree_model
+2025-04-20 02:31:27,944 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-04-20 02:31:27,947 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:27,948 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:27,948 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-04-20 02:31:28,475 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:28,532 - __main__ - INFO - Evaluation completed for elastic_net_model
+2025-04-20 02:31:28,532 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-04-20 02:31:28,569 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:28,570 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:28,570 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-04-20 02:31:29,006 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:29,055 - __main__ - INFO - Evaluation completed for gradient_boosting_model
+2025-04-20 02:31:29,055 - __main__ - INFO - Evaluating model: lasso_model
+2025-04-20 02:31:29,059 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:29,061 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:29,061 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-04-20 02:31:29,464 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:29,521 - __main__ - INFO - Evaluation completed for lasso_model
+2025-04-20 02:31:29,521 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-04-20 02:31:29,524 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:29,525 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:29,526 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-04-20 02:31:29,914 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:29,962 - __main__ - INFO - Evaluation completed for linear_regression_model
+2025-04-20 02:31:29,962 - __main__ - INFO - Evaluating model: random_forest_model
+2025-04-20 02:31:30,155 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:30,157 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:30,157 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-04-20 02:31:30,682 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:30,739 - __main__ - INFO - Evaluation completed for random_forest_model
+2025-04-20 02:31:30,740 - __main__ - INFO - Evaluating model: ridge_model
+2025-04-20 02:31:30,755 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:30,756 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:30,757 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-04-20 02:31:31,132 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:31,183 - __main__ - INFO - Evaluation completed for ridge_model
+2025-04-20 02:31:31,183 - __main__ - INFO - Evaluating model: xgboost_model
+2025-04-20 02:31:31,483 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:31:31,485 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:31:31,485 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-04-20 02:31:31,976 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:31:32,032 - __main__ - INFO - Evaluation completed for xgboost_model
+2025-04-20 02:34:19,504 - __main__ - INFO - Evaluating model: best_model
+2025-04-20 02:34:19,726 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:19,729 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:19,729 - __main__ - INFO - Evaluating regression model: best_model
+2025-04-20 02:34:20,247 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:20,706 - __main__ - INFO - Evaluation completed for best_model
+2025-04-20 02:34:20,706 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-04-20 02:34:20,707 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:20,708 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:20,708 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-04-20 02:34:21,036 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:21,087 - __main__ - INFO - Evaluation completed for decision_tree_model
+2025-04-20 02:34:21,087 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-04-20 02:34:21,088 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:21,089 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:21,089 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-04-20 02:34:21,573 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:21,626 - __main__ - INFO - Evaluation completed for elastic_net_model
+2025-04-20 02:34:21,627 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-04-20 02:34:21,665 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:21,666 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:21,666 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-04-20 02:34:22,087 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:22,139 - __main__ - INFO - Evaluation completed for gradient_boosting_model
+2025-04-20 02:34:22,139 - __main__ - INFO - Evaluating model: lasso_model
+2025-04-20 02:34:22,141 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:22,143 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:22,143 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-04-20 02:34:22,515 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:22,565 - __main__ - INFO - Evaluation completed for lasso_model
+2025-04-20 02:34:22,566 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-04-20 02:34:22,567 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:22,568 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:22,568 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-04-20 02:34:22,918 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:22,970 - __main__ - INFO - Evaluation completed for linear_regression_model
+2025-04-20 02:34:22,971 - __main__ - INFO - Evaluating model: random_forest_model
+2025-04-20 02:34:23,164 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:23,165 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:23,165 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-04-20 02:34:23,659 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:23,709 - __main__ - INFO - Evaluation completed for random_forest_model
+2025-04-20 02:34:23,710 - __main__ - INFO - Evaluating model: ridge_model
+2025-04-20 02:34:23,721 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:23,722 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:23,723 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-04-20 02:34:24,070 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:24,122 - __main__ - INFO - Evaluation completed for ridge_model
+2025-04-20 02:34:24,123 - __main__ - INFO - Evaluating model: xgboost_model
+2025-04-20 02:34:24,249 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:34:24,250 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:34:24,251 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-04-20 02:34:24,661 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:34:24,721 - __main__ - INFO - Evaluation completed for xgboost_model
+2025-04-20 02:34:24,722 - __main__ - INFO - All evaluation metrics saved to reports\evaluation_metrics.json
+2025-04-20 02:38:21,877 - __main__ - INFO - Evaluating model: best_model
+2025-04-20 02:38:21,916 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:21,918 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:21,918 - __main__ - INFO - Evaluating regression model: best_model
+2025-04-20 02:38:22,431 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:22,947 - __main__ - INFO - Evaluation completed for best_model
+2025-04-20 02:38:22,947 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-04-20 02:38:22,948 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:22,949 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:22,949 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-04-20 02:38:23,375 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:23,431 - __main__ - INFO - Evaluation completed for decision_tree_model
+2025-04-20 02:38:23,431 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-04-20 02:38:23,432 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:23,433 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:23,433 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-04-20 02:38:23,878 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:23,933 - __main__ - INFO - Evaluation completed for elastic_net_model
+2025-04-20 02:38:23,934 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-04-20 02:38:23,972 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:23,972 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:23,972 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-04-20 02:38:24,427 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:24,487 - __main__ - INFO - Evaluation completed for gradient_boosting_model
+2025-04-20 02:38:24,487 - __main__ - INFO - Evaluating model: lasso_model
+2025-04-20 02:38:24,488 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:24,489 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:24,490 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-04-20 02:38:24,873 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:24,933 - __main__ - INFO - Evaluation completed for lasso_model
+2025-04-20 02:38:24,933 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-04-20 02:38:24,934 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:24,935 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:24,935 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-04-20 02:38:25,302 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:25,360 - __main__ - INFO - Evaluation completed for linear_regression_model
+2025-04-20 02:38:25,360 - __main__ - INFO - Evaluating model: random_forest_model
+2025-04-20 02:38:25,583 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:25,585 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:25,585 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-04-20 02:38:26,148 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:26,199 - __main__ - INFO - Evaluation completed for random_forest_model
+2025-04-20 02:38:26,199 - __main__ - INFO - Evaluating model: ridge_model
+2025-04-20 02:38:26,209 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:26,210 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:26,211 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-04-20 02:38:26,571 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:26,626 - __main__ - INFO - Evaluation completed for ridge_model
+2025-04-20 02:38:26,626 - __main__ - INFO - Evaluating model: xgboost_model
+2025-04-20 02:38:26,796 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:38:26,798 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:38:26,798 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-04-20 02:38:27,500 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:38:27,554 - __main__ - INFO - Evaluation completed for xgboost_model
+2025-04-20 02:38:27,555 - __main__ - INFO - All evaluation metrics saved to reports\evaluation_metrics.json
+2025-04-20 02:39:39,239 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-04-20 02:39:39,241 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:39,242 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:39,243 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-04-20 02:39:39,753 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:40,254 - __main__ - INFO - Evaluation completed for decision_tree_model
+2025-04-20 02:39:40,255 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-04-20 02:39:40,255 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:40,257 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:40,257 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-04-20 02:39:40,704 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:40,761 - __main__ - INFO - Evaluation completed for elastic_net_model
+2025-04-20 02:39:40,761 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-04-20 02:39:40,798 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:40,800 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:40,800 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-04-20 02:39:41,230 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:41,284 - __main__ - INFO - Evaluation completed for gradient_boosting_model
+2025-04-20 02:39:41,284 - __main__ - INFO - Evaluating model: lasso_model
+2025-04-20 02:39:41,285 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:41,286 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:41,286 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-04-20 02:39:41,625 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:41,675 - __main__ - INFO - Evaluation completed for lasso_model
+2025-04-20 02:39:41,675 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-04-20 02:39:41,676 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:41,677 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:41,677 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-04-20 02:39:42,058 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:42,118 - __main__ - INFO - Evaluation completed for linear_regression_model
+2025-04-20 02:39:42,118 - __main__ - INFO - Evaluating model: random_forest_model
+2025-04-20 02:39:42,335 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:42,337 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:42,338 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-04-20 02:39:42,835 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:42,886 - __main__ - INFO - Evaluation completed for random_forest_model
+2025-04-20 02:39:42,886 - __main__ - INFO - Evaluating model: ridge_model
+2025-04-20 02:39:42,897 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:42,899 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:42,899 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-04-20 02:39:43,265 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:43,324 - __main__ - INFO - Evaluation completed for ridge_model
+2025-04-20 02:39:43,324 - __main__ - INFO - Evaluating model: xgboost_model
+2025-04-20 02:39:43,499 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-04-20 02:39:43,501 - __main__ - INFO - Test data loaded successfully. X shape: (3922, 10), y shape: (3922,)
+2025-04-20 02:39:43,501 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-04-20 02:39:44,007 - __main__ - INFO - Logging evaluation results to MLflow
+2025-04-20 02:39:44,070 - __main__ - INFO - Evaluation completed for xgboost_model
+2025-04-20 02:39:44,071 - __main__ - INFO - All evaluation metrics saved to reports\evaluation_metrics.json
+2025-05-01 10:54:14,418 - __main__ - INFO - Loading test data from data/processed/test_data.npz
+2025-05-01 10:54:14,421 - __main__ - INFO - Test data loaded successfully. X shape: (2942, 10), y shape: (2942,)
+2025-05-01 10:54:14,422 - __main__ - INFO - Loaded 10 feature names
+2025-05-01 10:54:14,422 - __main__ - INFO - Evaluating model: decision_tree_model
+2025-05-01 10:54:14,424 - __main__ - INFO - Evaluating regression model: decision_tree_model
+2025-05-01 10:54:14,935 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:15,941 - __main__ - INFO - Evaluation completed for decision_tree_model
+2025-05-01 10:54:15,941 - __main__ - INFO - Evaluating model: elastic_net_model
+2025-05-01 10:54:15,942 - __main__ - INFO - Evaluating regression model: elastic_net_model
+2025-05-01 10:54:16,293 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:16,349 - __main__ - INFO - Evaluation completed for elastic_net_model
+2025-05-01 10:54:16,350 - __main__ - INFO - Evaluating model: gradient_boosting_model
+2025-05-01 10:54:16,384 - __main__ - INFO - Evaluating regression model: gradient_boosting_model
+2025-05-01 10:54:16,825 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:16,890 - __main__ - INFO - Evaluation completed for gradient_boosting_model
+2025-05-01 10:54:16,890 - __main__ - INFO - Evaluating model: lasso_model
+2025-05-01 10:54:16,891 - __main__ - INFO - Evaluating regression model: lasso_model
+2025-05-01 10:54:17,277 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:17,330 - __main__ - INFO - Evaluation completed for lasso_model
+2025-05-01 10:54:17,330 - __main__ - INFO - Evaluating model: linear_regression_model
+2025-05-01 10:54:17,331 - __main__ - INFO - Evaluating regression model: linear_regression_model
+2025-05-01 10:54:17,650 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:17,699 - __main__ - INFO - Evaluation completed for linear_regression_model
+2025-05-01 10:54:17,699 - __main__ - INFO - Evaluating model: random_forest_model
+2025-05-01 10:54:17,770 - __main__ - INFO - Evaluating regression model: random_forest_model
+2025-05-01 10:54:18,136 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:18,187 - __main__ - INFO - Evaluation completed for random_forest_model
+2025-05-01 10:54:18,188 - __main__ - INFO - Evaluating model: ridge_model
+2025-05-01 10:54:18,191 - __main__ - INFO - Evaluating regression model: ridge_model
+2025-05-01 10:54:18,586 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:18,656 - __main__ - INFO - Evaluation completed for ridge_model
+2025-05-01 10:54:18,656 - __main__ - INFO - Evaluating model: xgboost_model
+2025-05-01 10:54:18,880 - __main__ - INFO - Evaluating regression model: xgboost_model
+2025-05-01 10:54:19,284 - __main__ - INFO - Logging evaluation results to MLflow
+2025-05-01 10:54:19,344 - __main__ - INFO - Evaluation completed for xgboost_model
+2025-05-01 10:54:19,346 - __main__ - INFO - All evaluation metrics saved to reports\evaluation_metrics.json

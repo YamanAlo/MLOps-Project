@@ -1,0 +1,287 @@
+2025-04-20 03:23:37,829 - fastapi - ERROR - Form data requires "python-multipart" to be installed. It seems you installed "multipart" instead. 
+You can remove "multipart" with: 
+
+pip uninstall multipart
+
+And then install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-04-20 03:24:35,886 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:24:37,866 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:24:37,933 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:24:38,097 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:24:38,169 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:24:38,242 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:24:38,608 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:24:38,680 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:24:39,083 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:24:39,083 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-04-20 03:33:29,055 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:33:30,201 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:33:30,265 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:33:30,408 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:33:30,478 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:33:30,546 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:33:30,795 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:33:30,862 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:33:31,088 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:33:31,089 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-04-20 03:38:29,401 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:38:30,621 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:38:30,693 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:38:30,833 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:38:30,904 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:38:30,972 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:38:31,230 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:38:31,297 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:38:31,553 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:38:31,553 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-04-20 03:41:59,449 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:42:01,047 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:42:01,134 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:42:01,326 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:42:01,422 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:42:01,525 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:42:01,909 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:42:01,998 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:42:02,309 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:42:02,309 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-04-20 03:42:32,948 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:42:34,207 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:42:34,282 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:42:34,441 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:42:34,520 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:42:34,605 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:42:34,913 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:42:34,996 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:42:35,246 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:42:35,247 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-04-20 03:42:39,497 - src.deployment.app - INFO - Loading models on startup...
+2025-04-20 03:42:40,707 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-04-20 03:42:40,780 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-04-20 03:42:40,919 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-04-20 03:42:40,993 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-04-20 03:42:41,070 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-04-20 03:42:41,353 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-04-20 03:42:41,429 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-04-20 03:42:41,664 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-04-20 03:42:41,665 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:33:14,315 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:33:15,848 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:33:15,920 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:33:16,563 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:33:16,631 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:33:16,703 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:33:16,833 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:33:16,903 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:33:17,153 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:33:17,153 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:33:17,153 - src.deployment.app - INFO - Loading housing prediction model (xgboost_model from Production)...
+2025-05-08 19:33:18,915 - src.deployment.app - INFO - Successfully loaded housing model from models:/xgboost_model/Production
+2025-05-08 19:33:18,930 - src.deployment.app - INFO - Housing model version: 4, from run_id: 3f28b08ec80846b29b532d975b3458af
+2025-05-08 19:33:18,965 - src.deployment.app - INFO - Successfully loaded imputer, scaler, and feature names for housing model.
+2025-05-08 19:33:37,447 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:33:38,517 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:33:38,586 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:33:38,728 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:33:38,796 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:33:38,865 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:33:38,999 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:33:39,069 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:33:39,352 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:33:39,352 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:37:13,709 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:37:14,724 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:37:14,794 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:37:14,919 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:37:14,990 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:37:15,060 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:37:15,185 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:37:15,255 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:37:15,508 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:37:15,508 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:37:32,895 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:37:34,502 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:37:34,578 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:37:34,710 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:37:34,785 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:37:34,862 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:37:34,996 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:37:35,084 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:37:35,389 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:37:35,389 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:41:01,852 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:41:02,947 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:41:03,021 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:41:03,162 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:41:03,238 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:41:03,312 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:41:03,441 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:41:03,520 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:41:03,767 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:41:03,768 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:41:09,486 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:41:10,679 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:41:10,746 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:41:10,871 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:41:10,939 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:41:11,020 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:41:11,145 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:41:11,224 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:41:11,459 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:41:11,460 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:42:20,679 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:42:21,828 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:42:21,900 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:42:22,028 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:42:22,099 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:42:22,171 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:42:22,296 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:42:22,365 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:42:22,579 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:42:22,579 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:42:25,729 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:42:26,739 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:42:26,808 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:42:26,948 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:42:27,024 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:42:27,100 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:42:27,230 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:42:27,303 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:42:27,529 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:42:27,529 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:42:30,625 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:42:31,652 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:42:31,722 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:42:31,850 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:42:31,921 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:42:31,992 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:42:32,116 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:42:32,189 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:42:32,423 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:42:32,424 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:02,623 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:03,715 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:03,791 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:03,949 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:04,027 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:04,105 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:04,248 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:04,325 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:04,614 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:04,614 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:08,245 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:09,366 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:09,439 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:09,569 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:09,641 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:09,715 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:09,838 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:09,911 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:10,193 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:10,193 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:13,729 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:14,770 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:14,839 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:14,972 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:15,048 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:15,122 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:15,264 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:15,340 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:15,644 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:15,644 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:19,167 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:20,305 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:20,374 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:20,495 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:20,564 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:20,635 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:20,764 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:20,836 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:21,102 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:21,103 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:24,454 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:25,510 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:25,591 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:25,738 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:25,819 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:25,899 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:26,044 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:26,119 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:26,390 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:26,390 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:29,705 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:43:30,781 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:43:30,861 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:43:31,010 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:43:31,090 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:43:31,167 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:43:31,304 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:43:31,375 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:43:31,638 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:43:31,639 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:43:35,567 - src.deployment.app - ERROR - Housing model or necessary preprocessors are not loaded. Cannot predict.
+2025-05-08 19:47:03,259 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 19:47:04,461 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 19:47:04,542 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 19:47:04,716 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 19:47:04,813 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 19:47:04,906 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 19:47:05,042 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 19:47:05,121 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 19:47:05,369 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 19:47:05,370 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 19:47:07,352 - src.deployment.app - INFO - Successfully loaded housing model and preprocessors.
+2025-05-08 19:47:48,384 - src.deployment.app - ERROR - Error during housing value prediction: 1 validation error for HousingPredictionResponse
+model_version
+  Input should be a valid string [type=string_type, input_value=4, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\yaman\Desktop\STUDY(S8)\MLOps\MLOps Project\src\deployment\app.py", line 224, in predict_housing_value
+    return HousingPredictionResponse(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HousingPredictionResponse
+model_version
+  Input should be a valid string [type=string_type, input_value=4, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-05-08 23:25:36,654 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 23:25:38,695 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 23:25:38,766 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 23:25:38,927 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 23:25:38,998 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 23:25:39,069 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 23:25:39,198 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 23:25:39,271 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 23:25:39,646 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 23:25:39,647 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 23:25:42,703 - src.deployment.app - INFO - Successfully loaded housing model and preprocessors.
+2025-05-08 23:26:19,509 - src.deployment.app - ERROR - Error during housing value prediction: 1 validation error for HousingPredictionResponse
+model_version
+  Input should be a valid string [type=string_type, input_value=4, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\yaman\Desktop\STUDY(S8)\MLOps\MLOps Project\src\deployment\app.py", line 224, in predict_housing_value
+    return HousingPredictionResponse(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaman\anaconda3\envs\Subtitles\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HousingPredictionResponse
+model_version
+  Input should be a valid string [type=string_type, input_value=4, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-05-08 23:28:39,501 - src.deployment.app - INFO - Loading models on startup...
+2025-05-08 23:28:41,053 - src.deployment.app - INFO - Successfully loaded model: decision_tree_model
+2025-05-08 23:28:41,129 - src.deployment.app - INFO - Successfully loaded model: elastic_net_model
+2025-05-08 23:28:41,285 - src.deployment.app - INFO - Successfully loaded model: gradient_boosting_model
+2025-05-08 23:28:41,359 - src.deployment.app - INFO - Successfully loaded model: lasso_model
+2025-05-08 23:28:41,435 - src.deployment.app - INFO - Successfully loaded model: linear_regression_model
+2025-05-08 23:28:41,575 - src.deployment.app - INFO - Successfully loaded model: random_forest_model
+2025-05-08 23:28:41,652 - src.deployment.app - INFO - Successfully loaded model: ridge_model
+2025-05-08 23:28:41,942 - src.deployment.app - INFO - Successfully loaded model: xgboost_model
+2025-05-08 23:28:41,942 - src.deployment.app - INFO - Loaded 8 models: ['decision_tree_model', 'elastic_net_model', 'gradient_boosting_model', 'lasso_model', 'linear_regression_model', 'random_forest_model', 'ridge_model', 'xgboost_model']
+2025-05-08 23:28:44,192 - src.deployment.app - INFO - Successfully loaded housing model and preprocessors.
