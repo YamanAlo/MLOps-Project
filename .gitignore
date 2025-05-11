@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# MLflow specific
+mlruns/
+mlflow.db
+models/*/
+mlartifacts/
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.pb
+*.model
+*.bin
+*.savedmodel
+
+# Data
+data/raw/
+data/processed/
+data/predictions/
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.dat
+
+# Logs
+logs/
+*.log
+wandb/
+tensorboard/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db

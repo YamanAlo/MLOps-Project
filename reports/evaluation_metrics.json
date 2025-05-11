@@ -1,0 +1,50 @@
+{
+    "decision_tree": {
+        "test_mean_squared_error": 0.4485019433349846,
+        "test_root_mean_squared_error": 0.6697028769051128,
+        "test_mean_absolute_error": 0.4381842845003399,
+        "test_r2_score": 0.6669984186439522
+    },
+    "elastic_net": {
+        "test_mean_squared_error": 0.591426486564026,
+        "test_root_mean_squared_error": 0.769042577861607,
+        "test_mean_absolute_error": 0.5545853604108514,
+        "test_r2_score": 0.5608804862310848
+    },
+    "gradient_boosting": {
+        "test_mean_squared_error": 0.26457558890308364,
+        "test_root_mean_squared_error": 0.5143691173691162,
+        "test_mean_absolute_error": 0.336911986231745,
+        "test_r2_score": 0.8035591800610553
+    },
+    "lasso": {
+        "test_mean_squared_error": 0.5915226896034477,
+        "test_root_mean_squared_error": 0.7691051225960257,
+        "test_mean_absolute_error": 0.5549672893589768,
+        "test_r2_score": 0.5608090578577305
+    },
+    "linear_regression": {
+        "test_mean_squared_error": 0.700968360911864,
+        "test_root_mean_squared_error": 0.8372385328637616,
+        "test_mean_absolute_error": 0.5580328550321758,
+        "test_r2_score": 0.47954835841176213
+    },
+    "random_forest": {
+        "test_mean_squared_error": 0.31561313333924906,
+        "test_root_mean_squared_error": 0.5617945650673821,
+        "test_mean_absolute_error": 0.3820091774051681,
+        "test_r2_score": 0.7656650677649159
+    },
+    "ridge": {
+        "test_mean_squared_error": 0.7190722185099595,
+        "test_root_mean_squared_error": 0.8479812607068387,
+        "test_mean_absolute_error": 0.5604109362094334,
+        "test_r2_score": 0.46610669266560567
+    },
+    "xgboost": {
+        "test_mean_squared_error": 0.2551944367876529,
+        "test_root_mean_squared_error": 0.5051677313404459,
+        "test_mean_absolute_error": 0.33805258414041256,
+        "test_r2_score": 0.8105244530900884
+    }
+}
